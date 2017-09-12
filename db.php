@@ -4,8 +4,8 @@
 
 	$host = "localhost";
 	$user = "root";
-	$pass = "garuda22";
-	$db = "malasngoding";
+	$pass = "";
+	$db = "users";
 
 	try {
 		$koneksi = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
