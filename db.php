@@ -5,7 +5,7 @@
 	$host = "localhost";
 	$user = "root";
 	$pass = "";
-	$db = "users";
+	$db = "";
 
 	try {
 		$koneksi = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
